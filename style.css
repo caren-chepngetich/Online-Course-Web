@@ -28,23 +28,95 @@ body{
 #txt{
     display: flex;
 }
-button{
+#login{
     border-radius: 30px;
-    padding:20px;
-    height: 20px;
+     padding:2px 5px 2px 5px; 
+  
     
 }
 #join{
     background-color: red;
     color: white;
     border-radius: 30px;
+    
 }
 #skill{
     display: flex;
 }
 
-@media screen and (min-width: 375px) and (max-width:939px){
+@media screen and (min-width: 375px) and (max-width:739px){
     #Nav{
        flex-direction: column; 
     }
+
+    #Icon{
+        flex-direction: column;
+    }
+
+    #txt{
+        flex-direction: column;
+    }
+
+    .man{
+        flex-direction: column;
+        gap: 250px;
+    }
+
+    #man{
+        width: 100px;
+    }
+
+    #Icons{
+        flex-direction: column;
+    }
+
+    #join{
+        background-color: red;
+        color: white;
+        border-radius: 30px;
+        padding: 3px 2px 3px 5px;
+    }
+
+  
+
 }
+
+
+@media screen and (min-width: 335px) and (max-width:659px){
+    #Nav{
+        flex-direction: column; 
+     }
+ 
+     #Icon{
+         flex-direction: column;
+     }
+ 
+     #txt{
+         flex-direction: column;
+     }
+ 
+     .man{
+         flex-direction: column;
+         gap: 200px;
+     }
+ 
+     #man{
+         width: 150px;
+     }
+ 
+     #Icons{
+         flex-direction: column;
+     }
+ 
+     #join{
+         background-color: red;
+         color: white;
+         border-radius: 30px;
+         padding: 3px 2px 3px 5px;
+     }
+ 
+   
+ 
+ }
+ 
+ 
