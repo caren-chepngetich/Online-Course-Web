@@ -1,0 +1,50 @@
+body{
+    font-size: larger;
+}
+
+#Nav{
+    display: flex;
+    list-style: none;
+   gap:200px;
+   text-decoration: none;
+}
+.man{
+    display: flex;
+    gap: 250px;
+}
+#text{
+    color: red;
+}
+#Icons{
+    display: flex;
+   gap:100px;
+}
+#Icon{
+    display: flex;
+}
+#man{
+    width: 700px;
+}
+#txt{
+    display: flex;
+}
+button{
+    border-radius: 30px;
+    padding:20px;
+    height: 20px;
+    
+}
+#join{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+#skill{
+    display: flex;
+}
+
+@media screen and (min-width: 375px) and (max-width:939px){
+    #Nav{
+       flex-direction: column; 
+    }
+}
