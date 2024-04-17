@@ -1,122 +1,425 @@
 body{
     font-size: larger;
+    margin-left: 100px;
+    
 }
-
 #Nav{
     display: flex;
-    list-style: none;
-   gap:200px;
-   text-decoration: none;
+}
+#navbar{
+    display: flex;
+    gap: 40%;
+    margin-left: 20%;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+#h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+}
+#hero{
+    color: rgb(215, 23, 23);
+}
+
+#superhero{
+    color: rgb(215, 23, 23);
+    margin-right: 2%;
+
+}
+#login{
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+}
+#join{
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(215, 23, 23);
+
+
 }
 .man{
     display: flex;
     gap: 250px;
 }
-#text{
-    color: red;
-}
-#Icons{
-    display: flex;
-   gap:100px;
-}
-#Icon{
-    display: flex;
-}
-#man{
+
+#hero-man{
     width: 700px;
 }
-#txt{
-    display: flex;
-}
-#login{
+#explore{
     border-radius: 30px;
-     padding:2px 5px 2px 5px; 
+    height: 50px;
+    width: 150px;
+    background-color: rgb(215, 23, 23);
+    margin-left: -20%;
+}
+input{
+    border-radius: 30px;
+    height: 40px;
+    width: 250px;
+}
+.tick{
+    display:flex;
+    gap: 30%;
+    margin-top: 5%;
+}
+
+#Logos{
+    display: flex;
+    gap:250px;
+    
+}
+
+#logo{
+    width: 150px;
+    margin-bottom: 20%;
   
-    
 }
-#join{
-    background-color: red;
-    color: white;
-    border-radius: 30px;
-    
+#slack{
+    width: 150px;
 }
-#skill{
-    display: flex;
+#udemy{
+    width: 150px; 
+}
+#google{
+    width: 100px;
+}
+i{
+    font-size: 35px;
+    margin-bottom: 5px;
 }
 
-@media screen and (min-width: 375px) and (max-width:739px){
+@media screen and (min-width: 0px) and (max-width:300px){
+        
     #Nav{
-       flex-direction: column; 
+           font-size: 10px;
+           display: block;
+          
+           
+        }
+    
+    #navbar{
+        display: flex;
+        gap: 3%;
+        font-size: 10px;
+        margin-left: -5%;
+      
     }
 
-    #Icon{
-        flex-direction: column;
-    }
-
-    #txt{
-        flex-direction: column;
+    #h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 
     .man{
-        flex-direction: column;
-        gap: 250px;
+        display: block;
+        gap: 2px;
+        font-size: 10px;
     }
-
-    #man{
+    #Logos{
+        display: block;
+        gap:250px;
+        
+    }
+    #login{
+        border-radius: 30px;
+        width: 50px;
+        height: 30px;
+        font-size: 8px;
+       
+    }
+    #join{
+        border-radius: 30px;
+        width: 50px;
+        height: 30px;
+        background-color: rgb(215, 23, 23);
+       
+    
+    
+    }
+    #hero-man{
+        width: 200px;
+    }
+    #explore{
+        border-radius: 30px;
+        height: 20px;
+        width: 80px;
+        background-color: rgb(215, 23, 23);
+        margin-left: -20%;
+    }
+    input{
+        border-radius: 30px;
+        height: 20px;
         width: 100px;
     }
-
-    #Icons{
-        flex-direction: column;
+    .tick{
+        display:flex;
+        gap: 10%;
+        margin-top: 5%;
     }
+    
+    
 
-    #join{
-        background-color: red;
-        color: white;
-        border-radius: 30px;
-        padding: 3px 2px 3px 5px;
+}
+@media screen and (min-width: 301px) and (max-width:667px){
+
+    body{
+        font-size: 200px;
     }
+    #Nav{
+        font-size: 10px;
+       
+     }
+ 
+ #navbar{
+     display: flex;
+     gap: 10%;
+     font-size: 10px;
+     
+   
+ }
 
+ #h2{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+ }
+
+ .man{
+     display: block;
+     gap: 2px;
+     font-size: 10px;
+ }
+ #Logos{
+     display: block;
+     gap:250px;
+     
+ }
+ #login{
+     border-radius: 30px;
+     width: 50px;
+     height: 30px;
+     font-size: 8px;
+    
+ }
+ #join{
+     border-radius: 30px;
+     width: 50px;
+     height: 30px;
+     background-color: rgb(215, 23, 23);
+    
+ 
+ 
+ }
+ #hero-man{
+     width: 300px;
+ }
+ #explore{
+     border-radius: 30px;
+     height: 20px;
+     width: 80px;
+     background-color: rgb(215, 23, 23);
+     margin-left: -20%;
+ }
+ input{
+     border-radius: 30px;
+     height: 20px;
+     width: 100px;
+ }
+ .tick{
+     display:flex;
+     gap: 20%;
+     margin-top: 5%;
+ }
+
+ #logo{
+    width: 150px;
   
-
+  
+}
+#Logos{
+    display: block;
+    gap:20px;
+    
 }
 
 
-@media screen and (min-width: 335px) and (max-width:659px){
+
+}
+@media screen and (min-width: 668px) and (max-width:998px){
+
+    body{
+        font-size: 180px;
+    }
     #Nav{
-        flex-direction: column; 
+        font-size: 10px;
+       
      }
  
-     #Icon{
-         flex-direction: column;
-     }
- 
-     #txt{
-         flex-direction: column;
-     }
- 
-     .man{
-         flex-direction: column;
-         gap: 200px;
-     }
- 
-     #man{
-         width: 150px;
-     }
- 
-     #Icons{
-         flex-direction: column;
-     }
- 
-     #join{
-         background-color: red;
-         color: white;
-         border-radius: 30px;
-         padding: 3px 2px 3px 5px;
-     }
- 
+ #navbar{
+     display: flex;
+     gap: 6%;
+     font-size: 10px;
+     margin-left: -5%;
    
+ }
+
+ #h2{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+ }
+
+ .man{
+     display: block;
+     gap: 2px;
+     font-size: 10px;
+ }
+ #Logos{
+     display: block;
+     gap:250px;
+     
+ }
+ #login{
+     border-radius: 30px;
+     width: 50px;
+     height: 30px;
+     font-size: 8px;
+    
+ }
+ #join{
+     border-radius: 30px;
+     width: 50px;
+     height: 50px;
+     background-color: rgb(215, 23, 23);
+    
+ 
  
  }
+ #hero-man{
+     width: 300px;
+ }
+ #explore{
+     border-radius: 30px;
+     height: 50px;
+     width: 300px;
+     background-color: rgb(215, 23, 23);
+     margin-left: -20%;
+ }
+ input{
+     border-radius: 30px;
+     height: 20px;
+     width: 400px;
+ }
+ .tick{
+     display:flex;
+     gap: 15%;
+     margin-top: 5%;
+ }
+
+ #logo{
+    width: 150px;
+  
+  
+}
+#Logos{
+    display: block;
+    gap:20px;
+    
+}
+}
+
+@media screen and (min-width: 999px) and (max-width:1300px){
+
+    body{
+        font-size: 200%;
+    }
+    #Nav{
+        font-size: 30px;
+       
+       
+     }
+ 
+ #navbar{
+     display: flex;
+     gap: 8%;
+     font-size: 50px;
+     margin-left: -5%;
+   
+ }
+
+ #h2{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 80px;
+ }
+
+ .man{
+     display: block;
+     gap: 2px;
+     font-size: 50px;
+ }
+ #Logos{
+     display: block;
+     gap:150px;
+     
+ }
+ #login{
+     border-radius: 30px;
+     width: 100px;
+     height: 30px;
+     font-size: 8px;
+    
+ }
+ #join{
+     border-radius: 30px;
+     width: 100px;
+     height: 30px;
+     background-color: rgb(215, 23, 23);
+    
  
  
+ }
+ #hero-man{
+     width: 800px;
+     position: center;
+ }
+ #explore{
+     border-radius: 30px;
+     height: 30px;
+     width: 50px;
+     background-color: rgb(215, 23, 23);
+     margin-left: -20%;
+ }
+ input{
+     border-radius: 30px;
+     height: 20px;
+     width: 100px;
+ }
+ .tick{
+     display:flex;
+     gap: 20%;
+     margin-top: 5%;
+ }
+
+ #logo{
+    width: 150px;
+  
+  
+}
+#Logos{
+    display:flex;
+    gap:80px;
+    font-size: 50px;
+    
+}
+ 
+ 
+
+}
+
+ 
+ 
+
+
+
